@@ -109,7 +109,9 @@ public class Main extends Application {
             int C = Integer.valueOf(textField2.getText());
             if (A > 0 && A <= 200 && B > 0 && B <= 200 && C > 0 && C <= 200) {
                 return 0;
-            } else return 1;
+            } else {
+                return 1;
+            }
         }
         catch (Exception e)
         {
